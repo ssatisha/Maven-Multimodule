@@ -1,18 +1,23 @@
-package spyda;
+package org.example;
 
-public abstract class Animal {
-    private String name;
 
-    Animal(String name) {
-        this.name = name;
+
+public class B {
+
+
+
+    public void foo() {
+
+        new B().foo();
+
     }
 
-    public String getName() {
-        return this.name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
+
+    public void bar() {
+
+        new B().bar();
+
     }
 
 }
